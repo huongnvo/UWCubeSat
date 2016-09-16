@@ -9,8 +9,9 @@ Build Instructions
 
 1. Git-clone the project repository.
 2. Download a copy of [TI Code Composer Studio](http://processors.wiki.ti.com/index.php/Download_CCS). Make sure you have the full/evauation license.
-3. Install CCS with MSP432 libs and TI ARM compiler.
-4. Import the project into CCS.
+3. Install CCS. During installation, make sure **TI ARM compiler** and MSP432 libs are selected.
+ 1. If you forgot to select TI ARM compiler during installation, you can get it after-the-fact by going to Help -> CCS App Center.
+4. Import the project into CCS as **a CCS Project**.
 
 From there, you should be able to build the project sucessfully
 using the Debug or Release configurations.
